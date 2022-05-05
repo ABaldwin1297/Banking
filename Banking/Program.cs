@@ -1,6 +1,6 @@
 ﻿using Banking;
 
-var sav1 = new Savings();
+var sav1 = new SavingsComp();
 sav1.Name = "My Savings";
 
 sav1.Deposit(100);
