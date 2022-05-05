@@ -1,5 +1,13 @@
 ﻿using Banking;
 
+var sav1 = new Savings();
+sav1.Name = "My Savings";
+
+sav1.Deposit(100);
+sav1.PayInterest(8);
+Console.WriteLine(sav1.Balance);
+
+/*
 var acct1 = new Account() {
     Name = "Checking 1"
 };
@@ -23,3 +31,4 @@ Console.WriteLine($"Acct1 balance is {acct1.Balance:c}, Acct2 balance is {acct2.
 
 acct1.Deposit(100);
 Console.WriteLine($"Acct1 balance is {acct1.Balance:c}, Acct2 balance is {acct2.Balance:c}");
+*/
